@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "ho2ast"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/me.jpg"
   bio              : "좋은 객체지향 설계를 고민 합니다."
   location         : #"Somewhere"
   email            :
