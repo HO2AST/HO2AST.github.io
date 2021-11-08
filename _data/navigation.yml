@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Development"
-    url: /development/
-  - title: "Personal"
-    url: /personal/
+  - title: "Home"
+    url: /index.html
+  - title: "Category"
+    url: /categories/
+#   - title: "Personal"
+#     url: /personal/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
