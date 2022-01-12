@@ -35,9 +35,18 @@
             </ul>
       </li>
       <li>
-        <span class="nav__sub-title">Algorithm</span>
+        <span class="nav__sub-title">DataStructure &<br/>Algorithm</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "DataStructure" %}
+                        <li><a href="/categories/datastructure" class="">DataStructure ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "Algorithm" %}
+                        <li><a href="/categories/algorithme" class="">Algorithm ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "Programmers" %}
+                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
+                    {% endif %}
                     {% if category[0] == "LeetCode" %}
                         <li><a href="/categories/leetcode" class="">LeetCode ({{category[1].size}})</a></li>
                     {% endif %}
